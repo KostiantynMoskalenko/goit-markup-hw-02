@@ -58,6 +58,7 @@ ol {
   font-size: 18px;
   color: var(--primary-brand-color);
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 .header-logo-accent {
@@ -90,7 +91,7 @@ ol {
 .main-button:active {
   font-family: inherit;
   color: var(--primary-white-color);
-  background-color: var(--primary-brand-color);
+  background-color: var(--presses-state-color);
 }
 
 .main-header-works,
@@ -100,6 +101,8 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+.inner-header-advantages,
 .inner-header-team,
 .inner-header-portfolio {
   color: var(--primary-titles-color);
@@ -154,7 +157,6 @@ ol {
 .header-address-link {
   color: var(--primary-text-color);
   font-style: normal;
-  font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
@@ -164,7 +166,6 @@ ol {
 .header-address-link.active {
   color: var(--presses-state-color);
   font-style: normal;
-  font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
