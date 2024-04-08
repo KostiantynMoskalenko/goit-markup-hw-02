@@ -1,0 +1,171 @@
+:root {
+  --primary-font: 'Robotic', sans-serif;
+  --primary-brand-color: rgba(77, 90, 229, 100%);
+  --presses-state-color: rgba(64, 75, 191, 100%);
+  --dark-color: rgba(46, 47, 66, 100%);
+  --success-color: rgba(49, 208, 170, 100%);
+  --primary-text-color: rgba(67, 68, 85, 100%);
+  --subtle-text-color: rgba(142, 143, 153, 100%);
+  --accent-background-color: rgba(231, 233, 252, 100%);
+  --light-background-color: rgba(244, 244, 253, 100%);
+  --modal-overlay-color: rgba(46, 47, 66, 40%);
+  --hero-background-color: rgba(46, 47, 66, 70%);
+  --primary-white-color: rgba(255, 255, 255, 100%);
+  --modal-background-color: rgba(252, 252, 252, 100%);
+}
+
+/*base styles*/
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/*common styles*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header-menu-item {
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.header-logo,
+.footer-logo {
+  font-family: raleway, sans-serif;
+  font-size: 18px;
+  color: var(--primary-brand-color);
+  font-weight: 800;
+}
+
+.header-logo-accent {
+  color: var(--dark-color);
+}
+
+.main-section {
+  background-color: var(--dark-color);
+}
+
+.main-header {
+  color: var(--primary-white-color);
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.4em;
+}
+
+.main-button {
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--primary-white-color);
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus,
+.main-button:active {
+  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand-color);
+}
+
+.main-header-works,
+.main-header-team {
+  color: var(--primary-titles-color);
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.inner-header-team,
+.inner-header-portfolio {
+  color: var(--primary-titles-color);
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.our-team {
+  background-color: var(--light-background-color);
+}
+.main-list-ourteam-item {
+  background-color: var(--primary-white-color);
+}
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--primary-brand-color);
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  background-color: var(--light-background-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--presses-state-color);
+}
+
+.portfolio-photo-item {
+  background-color: var(--primary-white-color);
+}
+
+.header-menu-link {
+  font-weight: 500;
+  color: var(--dark-color);
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus,
+.header-address-link.active {
+  color: var(--presses-state-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: var(--dark-color);
+}
+.footer-logo-accent {
+  color: var(--light-background-color);
+}
+
+.footer-paragraph {
+  color: var(--light-background-color);
+}
