@@ -141,6 +141,16 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link.active {
+  color: var(--presses-state-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+
 .header-address-link {
   color: var(--primary-text-color);
   font-style: normal;
